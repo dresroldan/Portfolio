@@ -15,8 +15,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 
-
-
 const useStyles = makeStyles((theme) => ({
 
   cardGrid: {
@@ -37,30 +35,34 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-const cards = [1, 2, 3, 4, 5, 6];
+
 
 export default function Album() {
   const classes = useStyles();
+  const data = [
+    { image: "https://source.unsplash.com/random", earnings: 13000 },
+    { image: "https://source.unsplash.com/random", earnings: 16500 },
+    { image: "https://source.unsplash.com/random", earnings: 14250 },
+    { image: "https://source.unsplash.com/random", earnings: 19000 }
+]
 
   return (
-
+  
         <Container className={classes.cardGrid} maxWidth="md">
-          
+          {/* End hero unit */}
           <Grid container spacing={4}>
-            {cards.map((card) => (
+            {data.map((card) => (
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardMedia
-                    className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
-                    title="Image title"
+                 image={`image: ${card.image}`}
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
                       Heading
                     </Typography>
                     <Typography>
-                      Yo yo yo
+                      This is a media card. You can use this section to describe the content.
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -76,8 +78,7 @@ export default function Album() {
             ))}
           </Grid>
         </Container>
-
-
-
+    
+     
   );
 }
