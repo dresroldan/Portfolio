@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
+import AvatarImage from '../../images/avatarimage.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -9,23 +10,19 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(1),
     },
   },
-  small: {
-    width: theme.spacing(3),
-    height: theme.spacing(3),
-  },
   large: {
-    width: theme.spacing(7),
-    height: theme.spacing(7),
+    width: theme.spacing(15),
+    height: theme.spacing(15),
   },
 }));
 
-export default function ImageAvatar() {
+export default function ImageAvatars() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
     
-      <Avatar alt="Remy Sharp" src="src/images/avatarimage.jpeg" className={classes.large} />
+      <Avatar alt="Remy Sharp" src= {AvatarImage} className={classes.large} />
     </div>
   );
 }

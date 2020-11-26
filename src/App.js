@@ -1,18 +1,17 @@
-import "./App.css";
-import Header from "./components/Header";
-import StickyFooter from "./components/StickyFooter";
-import Hero from "./components/Hero";
-import ProjectCard from "./components/ProjectCard";
-import About from "./components/About";
+import Navbar from "./components/Navbar/Navbar"
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import ProjectCardGrid from "./components/ProjectCardGrid/ProjectCardGrid";
+import About from "./components/About/About";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
       <Hero />
       <About />
-      <ProjectCard />
-      <StickyFooter />
+      <ProjectCardGrid />
+      <Footer />
     </div>
   );
 }

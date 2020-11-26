@@ -13,7 +13,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundImage: theme.palette.background.paper,
     padding: theme.spacing(18, 0, 15),
   },
 }));
