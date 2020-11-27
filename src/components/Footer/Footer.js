@@ -36,7 +36,7 @@ export default function Footer() {
         color="textSecondary"
         component="p"
       >
-        Something here to give the footer a purpose!
+       
       </Typography>
       <Copyright />
     </footer>

@@ -10,6 +10,7 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 
+
 const useStyles = makeStyles((theme) => ({
   root: {
     height: "100%",
@@ -25,12 +26,15 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
+
 export default function MediaCard(props) {
   const classes = useStyles();
 
+ 
   return (
     <Grid item key={props.id} xs={12} sm={6} md={4}>
-      <Card className={classes.root}>
+      <Card className={classes.root} >
         <CardActionArea>
           <CardMedia
             className={classes.media}
@@ -43,15 +47,17 @@ export default function MediaCard(props) {
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               {props.description}
+             
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
-            Share
+          <Button size="small" color="primary"  target="_blank" href={props.url} >
+            Demo 
           </Button>
-          <Button size="small" color="primary">
-            Learn More
+          <Button size="small" color="primary" target="_blank" href={props.url}>
+            Code
+            
           </Button>
         </CardActions>
       </Card>

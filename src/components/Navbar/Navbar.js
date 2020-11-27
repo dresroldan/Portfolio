@@ -1,9 +1,7 @@
 import React from "react";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import { makeStyles } from "@material-ui/core/styles";
-import Link from "@material-ui/core/Link";
+import { AppBar,Toolbar, Typography, makeStyles ,Link} from "@material-ui/core";
+
+
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -11,17 +9,25 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
     boxShadow: "0px 0px 0px 0px",
   },
+  projectsLink:  {marginRight: theme.spacing(2)}
+
 }));
+
 
 export default function Navbar() {
   const classes = useStyles();
   const preventDefault = (event) => event.preventDefault();
   return (
-    <AppBar className={classes.header} position="relative">
+    <AppBar className={classes.header} position="relative" >
       <Toolbar>
+        <Typography variant="h6" noWrap className={classes.projectsLink} >
+          <Link href="#applications" >
+            Projects
+          </Link>
+        </Typography>
         <Typography variant="h6" noWrap>
           <Link href="#" onClick={preventDefault}>
-            About
+            Resume
           </Link>
         </Typography>
       </Toolbar>
