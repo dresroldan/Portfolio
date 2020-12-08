@@ -20,7 +20,7 @@ export default function Hero() {
       <Container maxWidth="md">
         <Typography variant="h5" align="center" color="primary" paragraph>
           Hello, my name is Andrés Roldán. I am a web developer with a
-          background in music production and an for design. Recent certificate
+          background in music production and an eye for design. Recent certificate
           in full stack development from Northwestern University in Chicago, IL
           with acquired skills in HTML, CSS, Javascript, React.js and responsive
           web design. My focus is to create applications that improve the lives
