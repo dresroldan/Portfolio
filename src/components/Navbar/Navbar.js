@@ -25,11 +25,7 @@ export default function Navbar() {
             Projects
           </Link>
         </Typography>
-        <Typography variant="h6" noWrap>
-          <Link href="#" onClick={preventDefault}>
-            Resume
-          </Link>
-        </Typography>
+
       </Toolbar>
     </AppBar>
   );

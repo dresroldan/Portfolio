@@ -3,12 +3,12 @@ import { Grid, Typography, Container, makeStyles, IconButton } from "@material-u
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import palmImage from "../../images/projects/palm.jpg"
+
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
     padding: theme.spacing(18, 0, 15),
-    backgroundImage: palmImage
+
   },
 }));
 
@@ -52,7 +52,7 @@ export default function Hero() {
             <Grid item>
               <IconButton
                 aria-label="Linkedin.com"
-                onClick={() => window.open("https://www.Linkedin.com")}
+                onClick={() => window.open("https://www.instagram.com/mar_de_luz_/")}
               >
                 <InstagramIcon fontSize="large" />
               </IconButton>

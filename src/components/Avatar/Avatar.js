@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles, Avatar } from '@material-ui/core';
+
 import AvatarImage from '../../images/avatarimage.jpeg';
 
 const useStyles = makeStyles((theme) => ({
