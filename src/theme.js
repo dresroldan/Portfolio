@@ -11,7 +11,7 @@ const theme = createMuiTheme({
   },
 
   typography: {
-    fontFamily: ["PT Serif"],
+    fontFamily: ["Montserrat"],
   },
 
   shape: {
