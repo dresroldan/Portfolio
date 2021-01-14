@@ -1,14 +1,19 @@
 import React from "react";
-import { Grid, Typography, Container, makeStyles, IconButton } from "@material-ui/core";
+import {
+  Grid,
+  Typography,
+  Container,
+  makeStyles,
+  IconButton,
+} from "@material-ui/core";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
 
-
 const useStyles = makeStyles((theme) => ({
   heroContent: {
-    padding: theme.spacing(18, 0, 15),
-
+    // height:1000
+    padding: theme.spacing(25, 0, 50),
   },
 }));
 
@@ -17,17 +22,17 @@ export default function Hero() {
 
   return (
     <div className={classes.heroContent}>
-      <Container maxWidth="md">
-        <Typography variant="h5" align="center" color="primary" paragraph>
-          Hello, my name is Andrés Roldán. I am a web developer with a
-          background in music production and an eye for design. Recent certificate
-          in full stack development from Northwestern University in Chicago, IL
-          with acquired skills in HTML, CSS, Javascript, React.js and responsive
-          web design. My focus is to create applications that improve the lives
+      <Container maxWidth="sm">
+        <Typography variant="h5" align="center" color="primary">
+          Hello, I'm Andrés{" "}
+        </Typography>
+
+        <Typography variant="h4" align="center" color="primary" paragraph>
+          I am a developer with a focus in applications that improve the lives
           of others through user experience.
         </Typography>
 
-        <div >
+        <div>
           <Grid container spacing={0} justify="center">
             <Grid item>
               <IconButton
@@ -52,7 +57,9 @@ export default function Hero() {
             <Grid item>
               <IconButton
                 aria-label="Linkedin.com"
-                onClick={() => window.open("https://www.instagram.com/mar_de_luz_/")}
+                onClick={() =>
+                  window.open("https://www.instagram.com/mar_de_luz_/")
+                }
               >
                 <InstagramIcon fontSize="large" />
               </IconButton>
