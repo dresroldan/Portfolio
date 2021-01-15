@@ -6,13 +6,11 @@ import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles((theme) => ({
   aboutContent: {
-    backgroundColor: "black",
-    color: "white",
+    backgroundColor: "#EBE4D3",
+
   },
 
-  aboutText: {
-    color: "white",
-  },
+
   textPadding: {
     paddingTop: 25,
   },

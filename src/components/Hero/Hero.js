@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
   heroContent: {
     // height:1000
     padding: theme.spacing(25, 0, 50),
+    backgroundColor: "#FFFBF3",
   },
 }));
 
