@@ -9,6 +9,7 @@ import {
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import Fade from 'react-reveal/Fade';
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
@@ -24,15 +25,17 @@ export default function Hero() {
   return (
     <div className={classes.heroContent}>
       <Container maxWidth="sm">
+      <Fade top cascade>
         <Typography variant="h5" align="center" color="primary">
           Hello, I'm Andrés{" "}
         </Typography>
-
+        </Fade>
+        {/* <Fade top cascade> */}
         <Typography variant="h4" align="center" color="primary" paragraph>
           I am a developer with a focus in applications that improve the lives
           of others through user experience.
         </Typography>
-
+        {/* </Fade> */}
         <div>
           <Grid container spacing={0} justify="center">
             <Grid item>

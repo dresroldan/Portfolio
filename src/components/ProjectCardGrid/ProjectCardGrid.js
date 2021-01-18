@@ -2,13 +2,13 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
-import ProjectCard from "../projectcard/ProjectCard";
-import firstImage from "../../images/projects/picniqapp.png";
-import secondImage from "../../images/projects/habit1.png";
-import thirdImage from "../../images/projects/weatherdashboard.png";
-import fourthImage from "../../images/projects/scheduler.png";
-import fifthImage from "../../images/projects/fitnessmain.png";
-import sixthImage from "../../images/projects/budget-dashboard.png";
+import ProjectCard from "../ProjectCard/ProjectCard";
+import firstImage from "../../images/Projects/picniqapp.png";
+import secondImage from "../../images/Projects/habit1.png";
+import thirdImage from "../../images/Projects/weatherdashboard.png";
+import fourthImage from "../../images/Projects/scheduler.png";
+import fifthImage from "../../images/Projects/fitnessmain.png";
+import sixthImage from "../../images/Projects/budget-dashboard.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {

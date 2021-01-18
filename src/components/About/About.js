@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Container, makeStyles } from "@material-ui/core";
-import Avatar from "../avatar/Avatar.js";
+import Avatar from "../Avatar/Avatar";
 import Button from "@material-ui/core/Button";
 import Box from "@material-ui/core/Box";
 
