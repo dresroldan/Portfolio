@@ -9,13 +9,21 @@ import {
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
     // height:1000
     padding: theme.spacing(25, 0, 50),
     backgroundColor: "#FFFBF3",
+  },
+
+  heading: {
+    paddingBottom: "10px",
+  },
+
+  icons: {
+    paddingTop: "25px",
   },
 }));
 
@@ -25,10 +33,15 @@ export default function Hero() {
   return (
     <div className={classes.heroContent}>
       <Container maxWidth="sm">
-      <Fade top cascade>
-        <Typography variant="h5" align="center" color="primary">
-          Hello, I'm Andrés{" "}
-        </Typography>
+        <Fade top cascade>
+          <Typography
+            className={classes.heading}
+            variant="h5"
+            align="center"
+            color="primary"
+          >
+            Hello, I'm Andrés{" "}
+          </Typography>
         </Fade>
         {/* <Fade top cascade> */}
         <Typography variant="h4" align="center" color="primary" paragraph>
@@ -36,7 +49,7 @@ export default function Hero() {
           of others through user experience.
         </Typography>
         {/* </Fade> */}
-        <div>
+        <div className={classes.links}>
           <Grid container spacing={0} justify="center">
             <Grid item>
               <IconButton
