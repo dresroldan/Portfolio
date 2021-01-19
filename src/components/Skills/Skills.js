@@ -3,14 +3,15 @@ import { Typography, Container, makeStyles } from "@material-ui/core";
 import Avatar from "../Avatar/Avatar";
 import Button from "@material-ui/core/Button";
 import Box from "@material-ui/core/Box";
+import Grid from "@material-ui/core/Grid";
 
 const useStyles = makeStyles((theme) => ({
   aboutContent: {
-    backgroundColor: "black",
+    // backgroundColor: "black",
   },
 
-  textPadding: {
-    paddingTop: 25,
+  skillsContainer: {
+    padding: 90,
   },
 }));
 
@@ -19,24 +20,20 @@ export default function Skills() {
 
   return (
     <div className={classes.aboutContent}>
-      <Container maxWidth="md">
-        <Box
-          display="flex"
-          flexWrap="wrap"
-          justifyContent="flex-end"
-          m={1}
-          p={1}
-        >
-          <Box p={1}>
-            <Typography variant="h6" color="white" paragraph>
-              Creative and dependable front-end web developer with an
-              outstanding customer service record, and superb work ethic. Fast
-              learner, hard worker, and team player who is proficient in an
-              array of scripting languages and multimedia web tools.
-            </Typography>
-          </Box>
-        </Box>
-      </Container>
+      <Grid container className={classes.skillsContainer}>
+        <Grid item xs={12} md={4}>
+          <Typography variant="h6" align="center">Skill-Set</Typography>
+        </Grid>
+
+        <Grid item xs={12} md={8}>
+          <Typography variant="h7">
+            Node.Js. - Express - Javascript - jQuery - React - JSX - GIT -
+            GitHub - MongoDB - MySQL - Mongoose - Handlebars - HTML5 - CSS3 -
+            Bootstrap - Materialize - API’s - Heroku - Terminal - AJAX - Restful
+            API - ES6 - React Hooks - JSON - Sequelize
+          </Typography>
+        </Grid>
+      </Grid>
     </div>
   );
 }

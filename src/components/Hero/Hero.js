@@ -45,7 +45,7 @@ export default function Hero() {
         </Fade>
         {/* <Fade top cascade> */}
         <Typography variant="h4" align="center" color="primary" paragraph>
-          I am a developer with a focus in applications that improve the lives
+          I am a developer with a focus on building applications that improve the lives
           of others through user experience.
         </Typography>
         {/* </Fade> */}

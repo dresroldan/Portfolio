@@ -26,6 +26,14 @@ export default function Navbar() {
         <Typography variant="h6" noWrap className={classes.projectsLink}>
           <Link href="#applications">Projects</Link>
         </Typography>
+
+        <Typography variant="h6" noWrap className={classes.projectsLink}>
+          <Link href="#applications">About</Link>
+        </Typography>
+
+        <Typography variant="h6" noWrap className={classes.projectsLink}>
+          <Link href="#applications">Contact</Link>
+        </Typography>
       </Toolbar>
     </AppBar>
   );
