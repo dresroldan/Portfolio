@@ -1,12 +1,13 @@
-import React from 'react';
-import { makeStyles, Avatar } from '@material-ui/core';
+import React from "react";
+import { makeStyles, Avatar } from "@material-ui/core";
 
-import AvatarImage from '../../images/avatarimage.jpeg';
+import AvatarImage from "../../images/avatarimage.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
-    '& > *': {
+    display: "flex",
+    justifyContent: "center",
+    "& > *": {
       margin: theme.spacing(1),
     },
   },
@@ -21,8 +22,7 @@ export default function ImageAvatars() {
 
   return (
     <div className={classes.root}>
-    
-      <Avatar alt="Remy Sharp" src= {AvatarImage} className={classes.large} />
+      <Avatar alt="Remy Sharp" src={AvatarImage} className={classes.large} />
     </div>
   );
 }

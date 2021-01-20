@@ -10,12 +10,18 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import Fade from "react-reveal/Fade";
+import "./Hero.css"
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
     // height:1000
-    padding: theme.spacing(25, 0, 50),
-    backgroundColor: "#FFFBF3",
+    padding: theme.spacing(30, 0, 30),
+    
+    background:'-webkit-radial-gradient(circle, hsla(191, 60%, 89%, 1) 0%, hsla(56, 59%, 86%, 1) 50%, hsla(25, 85%, 69%, 1) 100%);',
+
+    borderRadius:'20px'
+  
+  
   },
 
   heading: {
@@ -31,8 +37,8 @@ export default function Hero() {
   const classes = useStyles();
 
   return (
-    <div className={classes.heroContent}>
-      <Container maxWidth="sm">
+    <div className={classes.heroContent} >
+      <Container  maxWidth="sm">
         <Fade top cascade>
           <Typography
             className={classes.heading}
@@ -45,8 +51,8 @@ export default function Hero() {
         </Fade>
         {/* <Fade top cascade> */}
         <Typography variant="h4" align="center" color="primary" paragraph>
-          I am a developer with a focus on building applications that improve the lives
-          of others through user experience.
+          I am a developer who focuses on building applications that improves lives
+          through user experience.
         </Typography>
         {/* </Fade> */}
         <div className={classes.links}>
