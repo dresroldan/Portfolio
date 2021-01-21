@@ -3,8 +3,9 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import Link from "@material-ui/core/Link";
+// import Link from "@material-ui/core/Link";
 import { makeStyles } from "@material-ui/core";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -13,7 +14,11 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "0px 0px 0px 0px",
     marginTop: "5vh",
   },
-  projectsLink: { marginRight: theme.spacing(2) },
+  projectsLink: {
+    marginRight: theme.spacing(2),
+
+    cursor: "pointer",
+  },
 
   toolbar: {
     justifyContent: "space-between",
@@ -21,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
 
   links: {
     display: "flex",
+    cursor: "pointer",
   },
 }));
 
@@ -32,17 +38,24 @@ export default function Navbar() {
       <Toolbar className={classes.toolbar}>
         <Box>
           <Typography variant="h6" noWrap className={classes.projectsLink}>
-            <Link href="#applications">Projects</Link>
+            <Link
+              activeClass="active"
+              to="applications"
+              smooth={true}
+              duration={1000}
+            >
+              Projects
+            </Link>
           </Typography>
         </Box>
 
         <Box className={classes.links}>
           <Typography variant="h7" noWrap className={classes.projectsLink}>
-            <Link href="#about">About</Link>
+            <Link activeClass="active" to="about"  smooth={true} duration={1000}>About</Link>
           </Typography>
 
-          <Typography variant="h7" noWrap >
-            <Link href="#contact">Contact</Link>
+          <Typography variant="h7" noWrap>
+            <Link activeClass="active" to="about"  smooth={true} duration={1000}>Contact</Link>
           </Typography>
         </Box>
       </Toolbar>

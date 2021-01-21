@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles, Avatar } from "@material-ui/core";
 
-import AvatarImage from "../../images/avatarimage.jpeg";
+import AvatarImage from "../../images/avatarimage2.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -12,8 +12,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   large: {
-    width: theme.spacing(15),
-    height: theme.spacing(15),
+    width: theme.spacing(20),
+    height: theme.spacing(20),
   },
 }));
 
