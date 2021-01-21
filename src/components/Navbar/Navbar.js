@@ -38,11 +38,11 @@ export default function Navbar() {
 
         <Box className={classes.links}>
           <Typography variant="h7" noWrap className={classes.projectsLink}>
-            <Link href="#applications">About</Link>
+            <Link href="#about">About</Link>
           </Typography>
 
           <Typography variant="h7" noWrap >
-            <Link href="#applications">Contact</Link>
+            <Link href="#contact">Contact</Link>
           </Typography>
         </Box>
       </Toolbar>

@@ -13,11 +13,7 @@ const useStyles = makeStyles((theme) => ({
     border: "1px solid",
     borderRadius: "20px",
     marginTop: "20px",
-    boxShadow: "#000 1px 1px 0",
-    boxShadow: "#000 2px 2px 0",
-    boxShadow: "#000 3px 3px 0",
-    boxShadow: "#000 4px 4px 0",
-    boxShadow: "#000 4px 5px 0",
+
   },
 
   aboutContainer: {
@@ -37,14 +33,14 @@ export default function About() {
       <div className={classes.aboutContent}>
         
         
-        <Grid container className={classes.aboutContainer}>
+        <Grid container className={classes.aboutContainer}id="about">
           <Grid item xs={12} md={5} >
             <Avatar className={classes.avatar} />
           </Grid>
 
           <Grid item xs={12} md={7}>
             <Typography component="h2" variant="h6" gutterBottom>
-              <Box fontStyle="oblique" fontWeight={700} textAlign="left" m={1}>
+              <Box fontStyle="oblique" fontWeight={500} textAlign="left" m={1}>
                 About Me
               </Box>
             </Typography>
@@ -59,7 +55,7 @@ export default function About() {
             </Typography>
 
             <Typography variant="h6" gutterBottom>
-              <Box fontStyle="oblique" fontWeight={700} textAlign="left" m={1}>
+              <Box fontStyle="oblique" fontWeight={500} textAlign="left" m={1}>
                 Contact
               </Box>
             </Typography>
