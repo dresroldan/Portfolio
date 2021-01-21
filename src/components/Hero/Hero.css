@@ -1,6 +1,0 @@
-.background {
-background:
-    -webkit-radial-gradient(circle, hsla(191, 60%, 89%, 1) 0%, hsla(56, 59%, 86%, 1) 50%, hsla(25, 85%, 69%, 1) 100%);
-    padding: theme.spacing(30, 0, 30),
-
-}
