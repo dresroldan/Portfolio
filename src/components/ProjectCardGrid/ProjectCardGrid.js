@@ -61,24 +61,24 @@ const cards = [
     codeLink: "https://github.com/dresroldan/work-day-scheduler",
   },
 
-  {
-    id: 5,
-    image: fifthImage,
-    title: "Workout Tracker",
-    description: "fjsdhfjksdhf",
-    demoLink:
-      "https://limitless-woodland-88147.herokuapp.com/?id=5fa1f26b8d9f8f0017c7740e",
-    codeLink: "https://github.com/dresroldan/workout-tracker",
-  },
-  {
-    id: 6,
-    image: sixthImage,
-    title: "PWA Budget Tracker",
-    description:
-      "This application allows users to add expenses and deposits to their budget with or without an online connection using Progressive Web Application (PWA).",
-    demoLink: "https://pwa-budget-tracker-andres.herokuapp.com/",
-    codeLink: "https://github.com/dresroldan/pwa-budget-tracker",
-  },
+  // {
+  //   id: 5,
+  //   image: fifthImage,
+  //   title: "Workout Tracker",
+  //   description: "fjsdhfjksdhf",
+  //   demoLink:
+  //     "https://limitless-woodland-88147.herokuapp.com/?id=5fa1f26b8d9f8f0017c7740e",
+  //   codeLink: "https://github.com/dresroldan/workout-tracker",
+  // },
+  // {
+  //   id: 6,
+  //   image: sixthImage,
+  //   title: "PWA Budget Tracker",
+  //   description:
+  //     "This application allows users to add expenses and deposits to their budget with or without an online connection using Progressive Web Application (PWA).",
+  //   demoLink: "https://pwa-budget-tracker-andres.herokuapp.com/",
+  //   codeLink: "https://github.com/dresroldan/pwa-budget-tracker",
+  // },
 ];
 
 

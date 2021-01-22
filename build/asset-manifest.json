@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.7db791f7.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.7db791f7.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.962d9667.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.962d9667.js.map",
-    "static/js/2.0feb1ab0.chunk.js": "/react-portfolio/static/js/2.0feb1ab0.chunk.js",
-    "static/js/2.0feb1ab0.chunk.js.map": "/react-portfolio/static/js/2.0feb1ab0.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/react-portfolio/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.0feb1ab0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0feb1ab0.chunk.js.LICENSE.txt",
-    "static/media/budget-dashboard.798240b5.png": "/react-portfolio/static/media/budget-dashboard.798240b5.png",
-    "static/media/fitnessmain.46d37971.png": "/react-portfolio/static/media/fitnessmain.46d37971.png",
-    "static/media/habit1.b8e2117e.png": "/react-portfolio/static/media/habit1.b8e2117e.png",
-    "static/media/picniqapp.ba74ddb0.png": "/react-portfolio/static/media/picniqapp.ba74ddb0.png",
-    "static/media/scheduler.b80f000e.png": "/react-portfolio/static/media/scheduler.b80f000e.png",
-    "static/media/weatherdashboard.69373e13.png": "/react-portfolio/static/media/weatherdashboard.69373e13.png"
+    "main.css": "/portfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/portfolio/static/js/main.68648d0b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.68648d0b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8b865247.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8b865247.js.map",
+    "static/js/2.c2c17daf.chunk.js": "/portfolio/static/js/2.c2c17daf.chunk.js",
+    "static/js/2.c2c17daf.chunk.js.map": "/portfolio/static/js/2.c2c17daf.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/portfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.c2c17daf.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c2c17daf.chunk.js.LICENSE.txt",
+    "static/media/budget-dashboard.798240b5.png": "/portfolio/static/media/budget-dashboard.798240b5.png",
+    "static/media/fitnessmain.46d37971.png": "/portfolio/static/media/fitnessmain.46d37971.png",
+    "static/media/habit1.b8e2117e.png": "/portfolio/static/media/habit1.b8e2117e.png",
+    "static/media/picniqapp.ba74ddb0.png": "/portfolio/static/media/picniqapp.ba74ddb0.png",
+    "static/media/scheduler.b80f000e.png": "/portfolio/static/media/scheduler.b80f000e.png",
+    "static/media/weatherdashboard.69373e13.png": "/portfolio/static/media/weatherdashboard.69373e13.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.962d9667.js",
-    "static/js/2.0feb1ab0.chunk.js",
+    "static/js/runtime-main.8b865247.js",
+    "static/js/2.c2c17daf.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.7db791f7.chunk.js"
+    "static/js/main.68648d0b.chunk.js"
   ]
 }
