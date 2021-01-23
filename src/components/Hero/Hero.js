@@ -19,7 +19,18 @@ const useStyles = makeStyles((theme) => ({
     background:
       "-webkit-radial-gradient(circle, hsla(191, 60%, 89%, 1) 0%, hsla(56, 59%, 86%, 1) 50%, hsla(25, 85%, 69%, 1) 100%);",
     borderRadius: "20px",
+    padding: theme.spacing(1),
+    [theme.breakpoints.down("sm")]: {
+      height: "450px",
+    },
+    [theme.breakpoints.up("md")]: {
+      height: "700px",
+    },
+    [theme.breakpoints.up("lg")]: {
+      height: "700px",
+    },
   },
+
   heading: {
     paddingBottom: "10px",
   },
@@ -34,7 +45,7 @@ export default function Hero() {
   return (
     <div className={classes.heroContent}>
       <Container maxWidth="sm">
-        <Fade duration={2000} bottom cascade>
+        <Fade duration={1000} bottom cascade>
           <Typography
             className={classes.heading}
             variant="h5"
@@ -43,15 +54,15 @@ export default function Hero() {
           >
             Hello, I'm Andrés{" "}
           </Typography>
-          {/* <Fade top cascade> */}
+        </Fade>
+        <Fade duration={2000} bottom cascade>
           <Typography variant="h4" align="center" color="primary" paragraph>
             I am a developer who focuses on building applications that improves
             lives through user experience.
           </Typography>
         </Fade>
-        {/* </Fade> */}
         <div className={classes.links}>
-          <Fade duration={2000} bottom cascade>
+          <Fade duration={3000} bottom cascade>
             <Grid container spacing={0} justify="center">
               <Grid item>
                 <IconButton
@@ -93,9 +104,6 @@ export default function Hero() {
           </Fab>
         </Grid> */}
       </Container>
-   
-   
-   
     </div>
   );
 }

@@ -29,7 +29,7 @@ export default function MediaCard(props) {
   const classes = useStyles();
 
   return (
-    <Grid item key={props.id} xs={12} sm={6} md={4}>
+    <Grid item key={props.id} xs={12} sm={6} md={6}>
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia

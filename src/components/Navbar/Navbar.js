@@ -37,6 +37,8 @@ export default function Navbar() {
     <AppBar className={classes.header} position="relative">
       <Toolbar className={classes.toolbar}>
         <Box>
+          {/* <img src="https://img.icons8.com/small/16/000000/360-degrees.png" />{" "} */}
+
           <Typography variant="h6" noWrap className={classes.projectsLink}>
             <Link
               activeClass="active"
@@ -51,11 +53,15 @@ export default function Navbar() {
 
         <Box className={classes.links}>
           <Typography variant="h7" noWrap className={classes.projectsLink}>
-            <Link activeClass="active" to="about"  smooth={true} duration={1000}>About</Link>
+            <Link activeClass="active" to="about" smooth={true} duration={1000}>
+              About
+            </Link>
           </Typography>
 
           <Typography variant="h7" noWrap>
-            <Link activeClass="active" to="about"  smooth={true} duration={1000}>Contact</Link>
+            <Link activeClass="active" to="about" smooth={true} duration={1000}>
+              Contact
+            </Link>
           </Typography>
         </Box>
       </Toolbar>

@@ -10,10 +10,9 @@ const useStyles = makeStyles((theme) => ({
   aboutContent: {
     // backgroundColor: "rgb(175, 192, 175)",
     justifyContent: "center",
-    border: "1px solid",
-    borderRadius: "20px",
+    // border: "1px solid",
+    // borderRadius: "20px",
     marginTop: "20px",
-
   },
 
   aboutContainer: {
@@ -22,6 +21,15 @@ const useStyles = makeStyles((theme) => ({
 
   avatar: {
     justifyContent: "center",
+    marginBottom:"25px",
+    paddingRight: "30px"
+  },
+
+  button: {
+    padding: "8px 22px",
+    color: "white",
+    backgroundColor: "black",
+    borderRadius: "5px",
   },
 }));
 
@@ -29,12 +37,10 @@ export default function About() {
   const classes = useStyles();
 
   return (
-    <Fade duration={2500} left>
+    <Fade duration={2500} bottom>
       <div className={classes.aboutContent}>
-        
-        
-        <Grid container className={classes.aboutContainer}id="about">
-          <Grid item xs={12} md={5} >
+        <Grid container className={classes.aboutContainer} id="about">
+          <Grid item xs={12} md={5}>
             <Avatar className={classes.avatar} />
           </Grid>
 
@@ -75,22 +81,21 @@ export default function About() {
               </Box>
             </Typography>
 
-           
-           
             <Box mt={4} ml={1}>
               <a
                 href="https://drive.google.com/file/d/1uWGIeu_o2xWPSQHOJcNfhrtt3uzjUwqm/view"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button size="large" variant="contained">
+                <Button
+                  className={classes.button}
+                  size="large"
+                  variant="contained"
+                >
                   Resume
                 </Button>
               </a>
             </Box>
-         
-         
-         
           </Grid>
         </Grid>
       </div>
