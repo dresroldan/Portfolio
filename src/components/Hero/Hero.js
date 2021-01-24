@@ -16,24 +16,45 @@ import Fade from "react-reveal/Fade";
 const useStyles = makeStyles((theme) => ({
   heroContent: {
     padding: theme.spacing(30, 0, 30),
+
     background:
       "-webkit-radial-gradient(circle, hsla(191, 60%, 89%, 1) 0%, hsla(56, 59%, 86%, 1) 50%, hsla(25, 85%, 69%, 1) 100%);",
-    borderRadius: "20px",
+    borderRadius: "5px",
+
     padding: theme.spacing(1),
-    [theme.breakpoints.down("sm")]: {
-      height: "450px",
+
+    [theme.breakpoints.up("xs")]: {
+      height: "28em",
     },
+    // [theme.breakpoints.up("s")]: {
+    //   height: "35em",},
+
     [theme.breakpoints.up("md")]: {
-      height: "700px",
+      height: "40em",
     },
+
     [theme.breakpoints.up("lg")]: {
-      height: "700px",
+      height: "50em",
     },
   },
 
   heading: {
-    paddingBottom: "10px",
+    marginBottom: "10px",
+    [theme.breakpoints.up("xs")]: {
+      fontSize: '1.3rem',
+    },
+    // [theme.breakpoints.up("s")]: {
+    //   height: "35em",},
+
+    [theme.breakpoints.up("md")]: {
+      fontSize: '2rem',
+    },
+
+    [theme.breakpoints.up("lg")]: {
+      fontSize: '2rem',
+    },
   },
+
   icons: {
     paddingTop: "25px",
   },
@@ -56,7 +77,7 @@ export default function Hero() {
           </Typography>
         </Fade>
         <Fade duration={2000} bottom cascade>
-          <Typography variant="h4" align="center" color="primary" paragraph>
+          <Typography className={classes.heading} variant="h4" align="center" color="primary" paragraph>
             I am a developer who focuses on building applications that improves
             lives through user experience.
           </Typography>
