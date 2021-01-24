@@ -2,9 +2,9 @@ import React from "react";
 import {
   Grid,
   Typography,
-  Container,
   makeStyles,
   IconButton,
+  Container,
 } from "@material-ui/core";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -15,8 +15,6 @@ import Fade from "react-reveal/Fade";
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
-    padding: theme.spacing(30, 0, 30),
-
     background:
       "-webkit-radial-gradient(circle, hsla(191, 60%, 89%, 1) 0%, hsla(56, 59%, 86%, 1) 50%, hsla(25, 85%, 69%, 1) 100%);",
     borderRadius: "5px",
@@ -36,24 +34,39 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("lg")]: {
       height: "50em",
     },
+
+    display: "flex",
+
+    alignItems: "center",
   },
 
   heading: {
     marginBottom: "10px",
+  
+    margin:"auto",
     [theme.breakpoints.up("xs")]: {
-      fontSize: '1.3rem',
+      fontSize: "1.3rem",
+      width: "80%",
     },
-    // [theme.breakpoints.up("s")]: {
-    //   height: "35em",},
 
     [theme.breakpoints.up("md")]: {
-      fontSize: '2rem',
+      fontSize: "2rem",
+      width: "80%",
     },
 
     [theme.breakpoints.up("lg")]: {
-      fontSize: '2rem',
+      fontSize: "2rem",
+      width: "70%",
     },
   },
+
+
+wrapper:{
+
+  width: "80%",
+
+}
+,
 
   icons: {
     paddingTop: "25px",
@@ -65,7 +78,8 @@ export default function Hero() {
 
   return (
     <div className={classes.heroContent}>
-      <Container maxWidth="sm">
+      {/* <Container maxWidth="sm"> */}
+      <div className={classes.wrapper}>
         <Fade duration={1000} bottom cascade>
           <Typography
             className={classes.heading}
@@ -77,7 +91,13 @@ export default function Hero() {
           </Typography>
         </Fade>
         <Fade duration={2000} bottom cascade>
-          <Typography className={classes.heading} variant="h4" align="center" color="primary" paragraph>
+          <Typography
+            className={classes.heading}
+            variant="h4"
+            align="center"
+            color="primary"
+            paragraph
+          >
             I am a developer who focuses on building applications that improves
             lives through user experience.
           </Typography>
@@ -118,13 +138,14 @@ export default function Hero() {
             </Grid>
           </Fade>
         </div>
+      </div>
 
-        {/* <Grid container spacing={0} justify="center">
+      {/* <Grid container spacing={0} justify="center">
           <Fab backgroundColor="#A80202">
-            <KeyboardArrowDownIcon />
+          <KeyboardArrowDownIcon />
           </Fab>
         </Grid> */}
-      </Container>
+      {/* </Container> */}
     </div>
   );
 }
