@@ -3,7 +3,6 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-// import Link from "@material-ui/core/Link";
 import { makeStyles } from "@material-ui/core";
 import { Link } from "react-scroll";
 
@@ -15,8 +14,6 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "5vh",
   },
   projectsLink: {
-    marginRight: theme.spacing(2),
-
     cursor: "pointer",
   },
 
@@ -39,14 +36,14 @@ export default function Navbar() {
         <Box>
           {/* <img src="https://img.icons8.com/small/16/000000/360-degrees.png" />{" "} */}
 
-          <Typography variant="h6" noWrap className={classes.projectsLink}>
+          <Typography variant="h7" noWrap className={classes.projectsLink}>
             <Link
               activeClass="active"
               to="applications"
               smooth={true}
               duration={1000}
             >
-              Projects
+              projects
             </Link>
           </Typography>
         </Box>
@@ -54,13 +51,7 @@ export default function Navbar() {
         <Box className={classes.links}>
           <Typography variant="h7" noWrap className={classes.projectsLink}>
             <Link activeClass="active" to="about" smooth={true} duration={1000}>
-              About
-            </Link>
-          </Typography>
-
-          <Typography variant="h7" noWrap>
-            <Link activeClass="active" to="about" smooth={true} duration={1000}>
-              Contact
+              about
             </Link>
           </Typography>
         </Box>

@@ -8,21 +8,14 @@ import Fade from "react-reveal/Fade";
 
 const useStyles = makeStyles((theme) => ({
   aboutContent: {
-    // backgroundColor: "rgb(175, 192, 175)",
-    justifyContent: "center",
-    // border: "1px solid",
-    // borderRadius: "20px",
-    marginTop: "20px",
-  },
-
-  aboutContainer: {
-    padding: 70,
+    paddingTop: "150px",
+    paddingBottom: "150px",
   },
 
   avatar: {
     justifyContent: "center",
-    marginBottom:"25px",
-    paddingRight: "30px"
+    marginBottom: "30px",
+    paddingRight: "30px",
   },
 
   button: {
@@ -38,8 +31,8 @@ export default function About() {
 
   return (
     <Fade duration={2500} bottom>
-      <div className={classes.aboutContent}>
-        <Grid container className={classes.aboutContainer} id="about">
+      <div id="hellow">
+        <Grid container className={classes.aboutContent} id="about">
           <Grid item xs={12} md={5}>
             <Avatar className={classes.avatar} />
           </Grid>

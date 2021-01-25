@@ -22,17 +22,20 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(1),
 
     [theme.breakpoints.up("xs")]: {
-      height: "28em",
+      height: "600px",
     },
     // [theme.breakpoints.up("s")]: {
     //   height: "35em",},
 
     [theme.breakpoints.up("md")]: {
-      height: "40em",
+      height: "600px",
     },
 
     [theme.breakpoints.up("lg")]: {
-      height: "50em",
+      height: "700px",
+    },
+    [theme.breakpoints.up("xl")]: {
+      height: "800px",
     },
 
     display: "flex",
@@ -42,8 +45,8 @@ const useStyles = makeStyles((theme) => ({
 
   heading: {
     marginBottom: "10px",
-  
-    margin:"auto",
+
+    margin: "auto",
     [theme.breakpoints.up("xs")]: {
       fontSize: "1.3rem",
       width: "80%",
@@ -60,14 +63,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 
-
-wrapper:{
-
-  width: "80%",
-
-}
-,
-
+  wrapper: {
+    width: "80%",
+    margin: "auto",
+  },
   icons: {
     paddingTop: "25px",
   },
