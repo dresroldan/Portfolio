@@ -8,7 +8,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     "& > *": {
-      margin: theme.spacing(1),
+      // margin: theme.spacing(1),
+      // marginBottom: "40px",
+      overflow: "inherit",
+      borderRadius: "5px",
     },
   },
   large: {
