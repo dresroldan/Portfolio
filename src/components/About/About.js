@@ -65,7 +65,7 @@ export default function About() {
             </Box>
           </Typography>
 
-          <Typography variant="h8" paragraph>
+          <Typography variant="h7" paragraph>
             <Box textAlign="left" m={1}>
               Creative and dependable front-end web developer with an
               outstanding customer service record, and superb work ethic. Fast
@@ -80,7 +80,7 @@ export default function About() {
             </Box>
           </Typography>
 
-          <Typography variant="h8" gutterBottom>
+          <Typography variant="h7" gutterBottom>
             <Box textAlign="left" m={1}>
               Andrés Roldán
             </Box>
