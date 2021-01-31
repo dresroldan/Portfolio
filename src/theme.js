@@ -11,7 +11,7 @@ const theme = createMuiTheme({
   },
 
   typography: {
-    fontFamily: ["Inter"],
+    fontFamily: ["Fluro"],
   },
 
   shape: {

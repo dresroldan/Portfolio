@@ -11,8 +11,9 @@ const useStyles = makeStyles((theme) => ({
   aboutContent: {
     paddingTop: "150px",
     paddingBottom: "150px",
-   
-    position:"relative"
+
+    position: "relative",
+    fontFamily: "Fluro",
   },
 
   button: {
@@ -23,37 +24,34 @@ const useStyles = makeStyles((theme) => ({
   },
 
   info: {
-  
     maxWidth: "425px",
+    fontSize: "16px",
   },
   avatar: {
-
-  marginTop:"20px",
+    marginTop: "20px",
     marginBottom: "40px",
-    position:"relative",
-    zIndex:1000
+    // position:"relative",
+    zIndex: 1000,
   },
 
-badge: {
-
-width:"160px",
-height:"160px",
-position:"absolute",
-top: "225px",
-right:"900px",
-backgroundColor:"black",
-zIndex:1,
-borderRadius: "5px",
-opacity:"75%"
-}
-
+  badge: {
+    width: "160px",
+    height: "160px",
+    position: "absolute",
+    top: "225px",
+    right: "900px",
+    backgroundColor: "black",
+    zIndex: 1,
+    borderRadius: "5px",
+    opacity: "75%",
+  },
 }));
 
 export default function About() {
   const classes = useStyles();
 
   return (
-    <div id="ABOUT-SECTION">
+    <div id="ABOUT-SECTION" id="about">
       <Grid container className={classes.aboutContent}>
         <Grid item xs={12} md={6} className={classes.avatar}>
           <Avatar />
@@ -61,13 +59,13 @@ export default function About() {
 
         <div id="#BADGE" className={classes.badge}></div>
         <Grid item xs={12} md={6} className={classes.info}>
-          <Typography component="h2" variant="h6" gutterBottom>
-            <Box fontStyle="oblique" fontWeight={500} textAlign="left" m={1}>
+          <Typography variant="h8" gutterBottom>
+            <Box fontWeight="fontWeightBold" textAlign="left" m={1}>
               About Me
             </Box>
           </Typography>
 
-          <Typography variant="h7" paragraph>
+          <Typography variant="h8" paragraph>
             <Box textAlign="left" m={1}>
               Creative and dependable front-end web developer with an
               outstanding customer service record, and superb work ethic. Fast
@@ -76,8 +74,8 @@ export default function About() {
             </Box>
           </Typography>
 
-          <Typography variant="h6" gutterBottom>
-            <Box fontStyle="oblique" fontWeight={500} textAlign="left" m={1}>
+          <Typography variant="h8" gutterBottom>
+            <Box fontWeight="fontWeightBold" textAlign="contact" m={1}>
               Contact
             </Box>
           </Typography>

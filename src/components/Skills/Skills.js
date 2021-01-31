@@ -14,14 +14,14 @@ const useStyles = makeStyles((theme) => ({
     // border: "2px solid green",
     justifyContent: "center",
     // position:"relative"
-    backgroundColor:"#F1F9F6",
+    backgroundColor: "#F1F9F6",
     // opacity:"75%"
+    fontFamily: "Fluro",
   },
 
   info: {
     // border: "2px solid red",
   },
-
 
   // badgeTwo: {
 
@@ -35,7 +35,6 @@ const useStyles = makeStyles((theme) => ({
   //   borderRadius: "5px",
   //   opacity:"75%"
   //   }
-
 }));
 
 export default function Skills() {
@@ -45,21 +44,20 @@ export default function Skills() {
     <div id="SKILLS-SECTION">
       <Grid container className={classes.skillsContainer}>
         <Grid item xs={6} md={7} className={classes.info}>
-          <Typography variant="h6">
-            <Box textAlign="center" m={1}>
+          <Typography component="h2" variant="h8">
+            <Box fontWeight="fontWeightBold" textAlign="center" m={1}>
               Skill-Set
             </Box>
           </Typography>
 
           <Typography variant="h7">
-              
-              Node.Js. - Express - Javascript - jQuery - React - JSX - GIT -
-              GitHub - MongoDB - MySQL - Mongoose - Handlebars - HTML5 - CSS3 -
-              Bootstrap - Materialize - API’s - Heroku - Terminal - AJAX -
-              Restful API - ES6 - React Hooks - JSON - Sequelize
-            </Typography>
+            Node.Js. - Express - Javascript - jQuery - React - JSX - GIT -
+            GitHub - MongoDB - MySQL - Mongoose - Handlebars - HTML5 - CSS3 -
+            Bootstrap - Materialize - API’s - Heroku - Terminal - AJAX - Restful
+            API - ES6 - React Hooks - JSON - Sequelize
+          </Typography>
         </Grid>
-      {/* <div id="#BADGE2" className={classes.badgeTwo}></div> */}
+        {/* <div id="#BADGE2" className={classes.badgeTwo}></div> */}
       </Grid>
     </div>
   );

@@ -9,7 +9,8 @@ import thirdImage from "../../images/Projects/weatherdashboard.png";
 import fourthImage from "../../images/Projects/scheduler.png";
 import fifthImage from "../../images/Projects/fitnessmain.png";
 import sixthImage from "../../images/Projects/budget-dashboard.png";
-
+import { Typography } from "@material-ui/core";
+import Box from "@material-ui/core/Box";
 const useStyles = makeStyles((theme) => ({
   root: {
     height: "100%",
@@ -20,8 +21,12 @@ const useStyles = makeStyles((theme) => ({
     height: 140,
   },
   cardGrid: {
-    paddingTop: theme.spacing(12),
+    // paddingTop: theme.spacing(8),
     paddingBottom: theme.spacing(12),
+  },
+  projectContainer: {
+    paddingTop: "100px",
+    fontFamily: "Fluro",
   },
 }));
 
@@ -30,7 +35,8 @@ const cards = [
     id: 1,
     image: firstImage,
     title: "Picniq",
-    description:"This application is a dynamic platform, designed to provide the nearest parks and restaurants based on the users’ location.",
+    description:
+      "This application is a dynamic platform, designed to provide the nearest parks and restaurants based on the users’ location.",
     // demoLink: "https://habitudeapp.herokuapp.com/",
     // codeLink: "https://github.com/dresroldan/Habitude",
   },
@@ -81,27 +87,32 @@ const cards = [
   // },
 ];
 
-
-
 export default function MediaCard() {
   const classes = useStyles();
 
   return (
-    <Container className={classes.cardGrid} maxWidth="lg" id="applications">
-      <Grid container spacing={8}>
-        {cards.map((card) => {
-          return (
-            <ProjectCard
-              id={card.id}
-              image={card.image}
-              title={card.title}
-              // description={card.description}
-              demoLink={card.demoLink}
-             codeLink={card.codeLink}
-            />
-          );
-        })}
-      </Grid>
-    </Container>
+    <div id="PROJECTS" id="applications" className={classes.projectContainer}>
+      <Typography component="h2" variant="h8">
+        <Box fontWeight="fontWeightBold" textAlign="center" mb={3}>
+          Projects
+        </Box>
+      </Typography>
+      <Container className={classes.cardGrid} maxWidth="lg">
+        <Grid container spacing={8}>
+          {cards.map((card) => {
+            return (
+              <ProjectCard
+                id={card.id}
+                image={card.image}
+                title={card.title}
+                // description={card.description}
+                demoLink={card.demoLink}
+                codeLink={card.codeLink}
+              />
+            );
+          })}
+        </Grid>
+      </Container>
+    </div>
   );
 }
