@@ -37,8 +37,8 @@ const cards = [
     title: "Picniq",
     description:
       "This application is a dynamic platform, designed to provide the nearest parks and restaurants based on the users’ location.",
-    // demoLink: "https://habitudeapp.herokuapp.com/",
-    // codeLink: "https://github.com/dresroldan/Habitude",
+    demoLink: "https://jpbrickhouse.github.io/Picniq/",
+    codeLink: "https://github.com/JPBrickhouse/Picniq",
   },
   {
     id: 2,

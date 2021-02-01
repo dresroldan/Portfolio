@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/andresroldan.com/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/andresroldan.com/static/js/main.ef73bf8b.chunk.js",
-    "main.js.map": "/andresroldan.com/static/js/main.ef73bf8b.chunk.js.map",
-    "runtime-main.js": "/andresroldan.com/static/js/runtime-main.d515baf0.js",
-    "runtime-main.js.map": "/andresroldan.com/static/js/runtime-main.d515baf0.js.map",
-    "static/js/2.12608ab8.chunk.js": "/andresroldan.com/static/js/2.12608ab8.chunk.js",
-    "static/js/2.12608ab8.chunk.js.map": "/andresroldan.com/static/js/2.12608ab8.chunk.js.map",
-    "index.html": "/andresroldan.com/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/andresroldan.com/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.12608ab8.chunk.js.LICENSE.txt": "/andresroldan.com/static/js/2.12608ab8.chunk.js.LICENSE.txt",
-    "static/media/budget-dashboard.798240b5.png": "/andresroldan.com/static/media/budget-dashboard.798240b5.png",
-    "static/media/fitnessmain.46d37971.png": "/andresroldan.com/static/media/fitnessmain.46d37971.png",
-    "static/media/habit1.b8e2117e.png": "/andresroldan.com/static/media/habit1.b8e2117e.png",
-    "static/media/picniqapp.ba74ddb0.png": "/andresroldan.com/static/media/picniqapp.ba74ddb0.png",
-    "static/media/scheduler.b80f000e.png": "/andresroldan.com/static/media/scheduler.b80f000e.png",
-    "static/media/weatherdashboard.69373e13.png": "/andresroldan.com/static/media/weatherdashboard.69373e13.png"
+    "main.css": "/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/static/js/main.9372ba55.chunk.js",
+    "main.js.map": "/static/js/main.9372ba55.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.75619753.js",
+    "runtime-main.js.map": "/static/js/runtime-main.75619753.js.map",
+    "static/js/2.bb64d8ee.chunk.js": "/static/js/2.bb64d8ee.chunk.js",
+    "static/js/2.bb64d8ee.chunk.js.map": "/static/js/2.bb64d8ee.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.bb64d8ee.chunk.js.LICENSE.txt": "/static/js/2.bb64d8ee.chunk.js.LICENSE.txt",
+    "static/media/budget-dashboard.798240b5.png": "/static/media/budget-dashboard.798240b5.png",
+    "static/media/fitnessmain.46d37971.png": "/static/media/fitnessmain.46d37971.png",
+    "static/media/habit1.b8e2117e.png": "/static/media/habit1.b8e2117e.png",
+    "static/media/picniqapp.ba74ddb0.png": "/static/media/picniqapp.ba74ddb0.png",
+    "static/media/scheduler.b80f000e.png": "/static/media/scheduler.b80f000e.png",
+    "static/media/weatherdashboard.69373e13.png": "/static/media/weatherdashboard.69373e13.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d515baf0.js",
-    "static/js/2.12608ab8.chunk.js",
+    "static/js/runtime-main.75619753.js",
+    "static/js/2.bb64d8ee.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.ef73bf8b.chunk.js"
+    "static/js/main.9372ba55.chunk.js"
   ]
 }
