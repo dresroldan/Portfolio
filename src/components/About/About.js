@@ -97,7 +97,7 @@ export default function About() {
 
           <Box mt={4} ml={1}>
             <a
-              href="https://drive.google.com/file/d/1IwZZO3BFdc6gu5A8V41IBAPSbpWd-RuJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Rbd3QmBiwz_b83c-k0Lr7RLEsWS2-D6q/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
