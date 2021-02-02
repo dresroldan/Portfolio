@@ -16,6 +16,8 @@ An updated and dynamic portfolio showcasing my resume and recent projects for po
 
 ## Website
 
-https://dresroldan.github.io/react-portfolio/
+https://www.andresroldan.com
 
-![](src/images/portfolioscreenshot.png)
+![](src/images/heroimage.png)
+![](src/images/aboutmeimage.png)
+![](src/images/projectsimage.png)

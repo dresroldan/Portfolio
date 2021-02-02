@@ -50,7 +50,7 @@ export default function Skills() {
             </Box>
           </Typography>
 
-          <Typography variant="h7">
+          <Typography variant="h7" textAlign="center" >
             Node.Js. - Express - Javascript - jQuery - React - JSX - GIT -
             GitHub - MongoDB - MySQL - Mongoose - Handlebars - HTML5 - CSS3 -
             Bootstrap - Materialize - API’s - Heroku - Terminal - AJAX - Restful
